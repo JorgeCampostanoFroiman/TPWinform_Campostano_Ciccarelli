@@ -1,0 +1,17 @@
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\winformstp2.exe.config
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\winformstp2.exe
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\winformstp2.pdb
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\dominio.dll
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\negocio.dll
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\dominio.pdb
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\bin\Debug\negocio.pdb
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.csprojAssemblyReference.cache
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.Form1.resources
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.Properties.Resources.resources
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.csproj.GenerateResource.cache
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.csproj.CoreCompileInputs.cache
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.csproj.CopyComplete
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.exe
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.pdb
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.Form2.resources
+C:\Users\jcamp\Desktop\utn\2 año\Programación\winformstp2\winformstp2\obj\Debug\winformstp2.FormDetalle.resources
