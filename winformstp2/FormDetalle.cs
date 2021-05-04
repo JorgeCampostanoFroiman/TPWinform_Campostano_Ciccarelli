@@ -37,7 +37,7 @@ namespace winformstp2
                 salida += "Precio" + articulo.Precio + "\r\n";
                 gbArticulo.Text = salida;
 
-                gbDescripcion.Text = articulo.Descripcion;
+                gbDescripcion.Text =  articulo.Descripcion;
                 RecargarImg(articulo.ImagenUrl);
 
             }

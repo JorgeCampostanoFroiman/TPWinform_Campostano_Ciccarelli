@@ -45,22 +45,22 @@ namespace winformstp2
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.tbPrecio = new System.Windows.Forms.TextBox();
-            this.pbAgregarCategoria = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pbAgregarMarca = new System.Windows.Forms.PictureBox();
             this.tbAgregarCategoria = new System.Windows.Forms.TextBox();
             this.tbDescripcion = new System.Windows.Forms.TextBox();
             this.labelAgregarMarca = new System.Windows.Forms.Label();
             this.labelAgregarCategoria = new System.Windows.Forms.Label();
-            this.pbSeguro2 = new System.Windows.Forms.PictureBox();
-            this.pbSeguro1 = new System.Windows.Forms.PictureBox();
             this.lbSeguro2 = new System.Windows.Forms.Label();
             this.lbSeguro1 = new System.Windows.Forms.Label();
+            this.pbSeguro1 = new System.Windows.Forms.PictureBox();
+            this.pbSeguro2 = new System.Windows.Forms.PictureBox();
+            this.pbAgregarCategoria = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pbAgregarMarca = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregarCategoria)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregarMarca)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -184,22 +184,24 @@ namespace winformstp2
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.LightSlateGray;
             this.btnAceptar.Location = new System.Drawing.Point(46, 377);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 16;
             this.btnAceptar.Text = "&Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
+            this.btnCancelar.BackColor = System.Drawing.Color.LightSlateGray;
             this.btnCancelar.Location = new System.Drawing.Point(180, 377);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "&Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // tbPrecio
@@ -211,9 +213,92 @@ namespace winformstp2
             this.tbPrecio.TextChanged += new System.EventHandler(this.tbPrecio_TextChanged);
             this.tbPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbPrecio_KeyPress);
             // 
+            // tbAgregarCategoria
+            // 
+            this.tbAgregarCategoria.Enabled = false;
+            this.tbAgregarCategoria.Location = new System.Drawing.Point(325, 321);
+            this.tbAgregarCategoria.Name = "tbAgregarCategoria";
+            this.tbAgregarCategoria.Size = new System.Drawing.Size(100, 20);
+            this.tbAgregarCategoria.TabIndex = 21;
+            // 
+            // tbDescripcion
+            // 
+            this.tbDescripcion.Location = new System.Drawing.Point(180, 108);
+            this.tbDescripcion.Name = "tbDescripcion";
+            this.tbDescripcion.Size = new System.Drawing.Size(100, 20);
+            this.tbDescripcion.TabIndex = 22;
+            // 
+            // labelAgregarMarca
+            // 
+            this.labelAgregarMarca.AutoSize = true;
+            this.labelAgregarMarca.Location = new System.Drawing.Point(229, 249);
+            this.labelAgregarMarca.Name = "labelAgregarMarca";
+            this.labelAgregarMarca.Size = new System.Drawing.Size(76, 13);
+            this.labelAgregarMarca.TabIndex = 23;
+            this.labelAgregarMarca.Text = "Agregar marca";
+            this.labelAgregarMarca.Visible = false;
+            // 
+            // labelAgregarCategoria
+            // 
+            this.labelAgregarCategoria.AutoSize = true;
+            this.labelAgregarCategoria.Location = new System.Drawing.Point(229, 305);
+            this.labelAgregarCategoria.Name = "labelAgregarCategoria";
+            this.labelAgregarCategoria.Size = new System.Drawing.Size(91, 13);
+            this.labelAgregarCategoria.TabIndex = 24;
+            this.labelAgregarCategoria.Text = "Agregar categoria";
+            this.labelAgregarCategoria.Visible = false;
+            // 
+            // lbSeguro2
+            // 
+            this.lbSeguro2.AutoSize = true;
+            this.lbSeguro2.Location = new System.Drawing.Point(464, 326);
+            this.lbSeguro2.Name = "lbSeguro2";
+            this.lbSeguro2.Size = new System.Drawing.Size(75, 13);
+            this.lbSeguro2.TabIndex = 28;
+            this.lbSeguro2.Text = "¿Está seguro?";
+            this.lbSeguro2.Visible = false;
+            // 
+            // lbSeguro1
+            // 
+            this.lbSeguro1.AutoSize = true;
+            this.lbSeguro1.Location = new System.Drawing.Point(464, 269);
+            this.lbSeguro1.Name = "lbSeguro1";
+            this.lbSeguro1.Size = new System.Drawing.Size(75, 13);
+            this.lbSeguro1.TabIndex = 29;
+            this.lbSeguro1.Text = "¿Está seguro?";
+            this.lbSeguro1.Visible = false;
+            // 
+            // pbSeguro1
+            // 
+            this.pbSeguro1.Image = global::winformstp2.Properties.Resources.pls;
+            this.pbSeguro1.Location = new System.Drawing.Point(431, 265);
+            this.pbSeguro1.Name = "pbSeguro1";
+            this.pbSeguro1.Size = new System.Drawing.Size(27, 21);
+            this.pbSeguro1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbSeguro1.TabIndex = 26;
+            this.pbSeguro1.TabStop = false;
+            this.pbSeguro1.Visible = false;
+            this.pbSeguro1.Click += new System.EventHandler(this.pbSeguro1_Click);
+            this.pbSeguro1.MouseEnter += new System.EventHandler(this.pbSeguro1_MouseEnter);
+            this.pbSeguro1.MouseLeave += new System.EventHandler(this.pbSeguro1_MouseLeave);
+            // 
+            // pbSeguro2
+            // 
+            this.pbSeguro2.Image = global::winformstp2.Properties.Resources.pls;
+            this.pbSeguro2.Location = new System.Drawing.Point(431, 320);
+            this.pbSeguro2.Name = "pbSeguro2";
+            this.pbSeguro2.Size = new System.Drawing.Size(27, 21);
+            this.pbSeguro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbSeguro2.TabIndex = 25;
+            this.pbSeguro2.TabStop = false;
+            this.pbSeguro2.Visible = false;
+            this.pbSeguro2.Click += new System.EventHandler(this.pbSeguro2_Click);
+            this.pbSeguro2.MouseEnter += new System.EventHandler(this.pbSeguro2_MouseEnter);
+            this.pbSeguro2.MouseLeave += new System.EventHandler(this.pbSeguro2_MouseLeave);
+            // 
             // pbAgregarCategoria
             // 
-            this.pbAgregarCategoria.Image = global::winformstp2.Properties.Resources._;
+            this.pbAgregarCategoria.Image = global::winformstp2.Properties.Resources.mas;
             this.pbAgregarCategoria.Location = new System.Drawing.Point(253, 322);
             this.pbAgregarCategoria.Name = "pbAgregarCategoria";
             this.pbAgregarCategoria.Size = new System.Drawing.Size(27, 21);
@@ -226,7 +311,8 @@ namespace winformstp2
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::winformstp2.Properties.Resources._;
+            this.pictureBox2.BackColor = System.Drawing.Color.LightSlateGray;
+            this.pictureBox2.Image = global::winformstp2.Properties.Resources.mas;
             this.pictureBox2.Location = new System.Drawing.Point(253, 265);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(27, 21);
@@ -249,93 +335,11 @@ namespace winformstp2
             this.pbAgregarMarca.TabIndex = 0;
             this.pbAgregarMarca.TabStop = false;
             // 
-            // tbAgregarCategoria
-            // 
-            this.tbAgregarCategoria.Enabled = false;
-            this.tbAgregarCategoria.Location = new System.Drawing.Point(325, 321);
-            this.tbAgregarCategoria.Name = "tbAgregarCategoria";
-            this.tbAgregarCategoria.Size = new System.Drawing.Size(100, 20);
-            this.tbAgregarCategoria.TabIndex = 21;
-            // 
-            // tbDescripcion
-            // 
-            this.tbDescripcion.Location = new System.Drawing.Point(180, 108);
-            this.tbDescripcion.Name = "tbDescripcion";
-            this.tbDescripcion.Size = new System.Drawing.Size(100, 20);
-            this.tbDescripcion.TabIndex = 22;
-            // 
-            // labelAgregarMarca
-            // 
-            this.labelAgregarMarca.AutoSize = true;
-            this.labelAgregarMarca.Location = new System.Drawing.Point(250, 249);
-            this.labelAgregarMarca.Name = "labelAgregarMarca";
-            this.labelAgregarMarca.Size = new System.Drawing.Size(76, 13);
-            this.labelAgregarMarca.TabIndex = 23;
-            this.labelAgregarMarca.Text = "Agregar marca";
-            this.labelAgregarMarca.Visible = false;
-            // 
-            // labelAgregarCategoria
-            // 
-            this.labelAgregarCategoria.AutoSize = true;
-            this.labelAgregarCategoria.Location = new System.Drawing.Point(239, 305);
-            this.labelAgregarCategoria.Name = "labelAgregarCategoria";
-            this.labelAgregarCategoria.Size = new System.Drawing.Size(91, 13);
-            this.labelAgregarCategoria.TabIndex = 24;
-            this.labelAgregarCategoria.Text = "Agregar categoria";
-            this.labelAgregarCategoria.Visible = false;
-            // 
-            // pbSeguro2
-            // 
-            this.pbSeguro2.Image = global::winformstp2.Properties.Resources._;
-            this.pbSeguro2.Location = new System.Drawing.Point(431, 320);
-            this.pbSeguro2.Name = "pbSeguro2";
-            this.pbSeguro2.Size = new System.Drawing.Size(27, 21);
-            this.pbSeguro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbSeguro2.TabIndex = 25;
-            this.pbSeguro2.TabStop = false;
-            this.pbSeguro2.Visible = false;
-            this.pbSeguro2.Click += new System.EventHandler(this.pbSeguro2_Click);
-            this.pbSeguro2.MouseEnter += new System.EventHandler(this.pbSeguro2_MouseEnter);
-            this.pbSeguro2.MouseLeave += new System.EventHandler(this.pbSeguro2_MouseLeave);
-            // 
-            // pbSeguro1
-            // 
-            this.pbSeguro1.Image = global::winformstp2.Properties.Resources._;
-            this.pbSeguro1.Location = new System.Drawing.Point(431, 265);
-            this.pbSeguro1.Name = "pbSeguro1";
-            this.pbSeguro1.Size = new System.Drawing.Size(27, 21);
-            this.pbSeguro1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbSeguro1.TabIndex = 26;
-            this.pbSeguro1.TabStop = false;
-            this.pbSeguro1.Visible = false;
-            this.pbSeguro1.Click += new System.EventHandler(this.pbSeguro1_Click);
-            this.pbSeguro1.MouseEnter += new System.EventHandler(this.pbSeguro1_MouseEnter);
-            this.pbSeguro1.MouseLeave += new System.EventHandler(this.pbSeguro1_MouseLeave);
-            // 
-            // lbSeguro2
-            // 
-            this.lbSeguro2.AutoSize = true;
-            this.lbSeguro2.Location = new System.Drawing.Point(464, 326);
-            this.lbSeguro2.Name = "lbSeguro2";
-            this.lbSeguro2.Size = new System.Drawing.Size(75, 13);
-            this.lbSeguro2.TabIndex = 28;
-            this.lbSeguro2.Text = "¿Está seguro?";
-            this.lbSeguro2.Visible = false;
-            // 
-            // lbSeguro1
-            // 
-            this.lbSeguro1.AutoSize = true;
-            this.lbSeguro1.Location = new System.Drawing.Point(464, 269);
-            this.lbSeguro1.Name = "lbSeguro1";
-            this.lbSeguro1.Size = new System.Drawing.Size(75, 13);
-            this.lbSeguro1.TabIndex = 29;
-            this.lbSeguro1.Text = "¿Está seguro?";
-            this.lbSeguro1.Visible = false;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(590, 412);
             this.Controls.Add(this.lbSeguro1);
             this.Controls.Add(this.lbSeguro2);
@@ -364,17 +368,18 @@ namespace winformstp2
             this.Controls.Add(this.tbNombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbAgregarMarca);
+            this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.Opacity = 0.88D;
             this.Text = "Artículo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregarCategoria)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregarMarca)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSeguro1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,7 +404,6 @@ namespace winformstp2
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox tbPrecio;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pbAgregarCategoria;
         private System.Windows.Forms.TextBox tbAgregarCategoria;
         private System.Windows.Forms.TextBox tbDescripcion;
@@ -409,5 +413,6 @@ namespace winformstp2
         private System.Windows.Forms.PictureBox pbSeguro1;
         private System.Windows.Forms.Label lbSeguro2;
         private System.Windows.Forms.Label lbSeguro1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -160,9 +160,9 @@ namespace winformstp2
                 detalle.ShowDialog();
                 cargarGrilla();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("No has seleccionado ningun articulo para ver su detalle");
+                throw (ex);
             }
 
 

@@ -38,6 +38,8 @@ namespace winformstp2
             // 
             // gbDescripcion
             // 
+            this.gbDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.gbDescripcion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.gbDescripcion.Location = new System.Drawing.Point(12, 149);
             this.gbDescripcion.Name = "gbDescripcion";
             this.gbDescripcion.Size = new System.Drawing.Size(370, 124);
@@ -69,6 +71,7 @@ namespace winformstp2
             this.gbArticulo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbArticulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.gbArticulo.Location = new System.Drawing.Point(12, 19);
             this.gbArticulo.Margin = new System.Windows.Forms.Padding(10);
             this.gbArticulo.Name = "gbArticulo";
@@ -83,6 +86,7 @@ namespace winformstp2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(673, 321);
             this.Controls.Add(this.gbArticulo);
             this.Controls.Add(this.btRegresar);
