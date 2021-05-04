@@ -53,7 +53,7 @@ namespace winformstp2
                 if (articulo != null)
                 {  
                     tbCodigo.Text = articulo.Codigo;
-                    tbAgregarMarca.Text = articulo.Descripcion;
+                    tbDescripcion.Text = articulo.Descripcion;
                     tbUrl.Text = articulo.ImagenUrl;
                     tbNombre.Text = articulo.Nombre;
                     tbPrecio.Text = Convert.ToString(articulo.Precio);

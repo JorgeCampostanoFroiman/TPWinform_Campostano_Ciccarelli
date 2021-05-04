@@ -34,10 +34,11 @@ namespace winformstp2
                 salida += "Nombre: " + articulo.Nombre + "\r\n";
                 salida += "Marca: " + articulo.marca.Nombre + "\r\n";
                 salida += "Categoria: " + articulo.categoria.Nombre + "\r\n";
-                salida += "Precio" + articulo.Precio + "\r\n";
+                salida += "Precio: $" + articulo.Precio + "\r\n";
                 gbArticulo.Text = salida;
 
-                gbDescripcion.Text =  articulo.Descripcion;
+                gbDescripcion.Text = "Descripción: " + "\r\n";
+                gbDescripcion.Text = articulo.Descripcion;
                 RecargarImg(articulo.ImagenUrl);
 
             }

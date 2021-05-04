@@ -61,7 +61,7 @@ namespace winformstp2
             }
             catch (Exception)
             {
-                RecargarImg("https://wpdirecto.com/wp-content/uploads/2017/08/solucionar-error-wordpress.jpg");
+                RecargarImg("https://blogs.unsw.edu.au/nowideas/files/2018/11/error-no-es-fracaso.jpg");
             }
 
         }
@@ -99,19 +99,20 @@ namespace winformstp2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Articulo seleccionado = (Articulo)dataGridView1.CurrentRow.DataBoundItem;
-            ArticuloNegocio negocio = new ArticuloNegocio();
+           
             try
             {
+                Articulo seleccionado = (Articulo)dataGridView1.CurrentRow.DataBoundItem;
+                ArticuloNegocio negocio = new ArticuloNegocio();
                 if (MessageBox.Show("Estás seguro de eliminarlo?", "Eliminandooo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     negocio.eliminar(seleccionado.Id);
                     cargarGrilla();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("No has seleccionado ningun articulo para eliminar");
             }
         }
         
@@ -153,6 +154,7 @@ namespace winformstp2
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             try
             {
                 Articulo seleccionado = (Articulo)dataGridView1.CurrentRow.DataBoundItem;
@@ -160,10 +162,11 @@ namespace winformstp2
                 detalle.ShowDialog();
                 cargarGrilla();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw (ex);
+                MessageBox.Show("No has seleccionado ningun articulo para ver el detalle!!!");
             }
+            
 
 
         }

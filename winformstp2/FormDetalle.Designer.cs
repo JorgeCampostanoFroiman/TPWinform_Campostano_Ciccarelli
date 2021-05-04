@@ -29,69 +29,64 @@ namespace winformstp2
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbDescripcion = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btRegresar = new System.Windows.Forms.Button();
-            this.gbArticulo = new System.Windows.Forms.GroupBox();
+            this.gbDescripcion = new System.Windows.Forms.RichTextBox();
+            this.gbArticulo = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // gbDescripcion
-            // 
-            this.gbDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.gbDescripcion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gbDescripcion.Location = new System.Drawing.Point(12, 149);
-            this.gbDescripcion.Name = "gbDescripcion";
-            this.gbDescripcion.Size = new System.Drawing.Size(370, 124);
-            this.gbDescripcion.TabIndex = 1;
-            this.gbDescripcion.TabStop = false;
-            this.gbDescripcion.Text = "Descripción";
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(407, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(461, 13);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(245, 274);
+            this.pictureBox1.Size = new System.Drawing.Size(411, 335);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // btRegresar
             // 
-            this.btRegresar.Location = new System.Drawing.Point(153, 286);
+            this.btRegresar.Location = new System.Drawing.Point(178, 330);
+            this.btRegresar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btRegresar.Name = "btRegresar";
-            this.btRegresar.Size = new System.Drawing.Size(75, 23);
+            this.btRegresar.Size = new System.Drawing.Size(87, 26);
             this.btRegresar.TabIndex = 3;
             this.btRegresar.Text = "Regresar";
             this.btRegresar.UseVisualStyleBackColor = true;
             this.btRegresar.Click += new System.EventHandler(this.btRegresar_Click);
             // 
+            // gbDescripcion
+            // 
+            this.gbDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbDescripcion.Location = new System.Drawing.Point(12, 218);
+            this.gbDescripcion.Name = "gbDescripcion";
+            this.gbDescripcion.Size = new System.Drawing.Size(434, 105);
+            this.gbDescripcion.TabIndex = 4;
+            this.gbDescripcion.Text = "";
+            // 
             // gbArticulo
             // 
-            this.gbArticulo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbArticulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gbArticulo.Location = new System.Drawing.Point(12, 19);
-            this.gbArticulo.Margin = new System.Windows.Forms.Padding(10);
+            this.gbArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbArticulo.Location = new System.Drawing.Point(12, 13);
             this.gbArticulo.Name = "gbArticulo";
-            this.gbArticulo.Padding = new System.Windows.Forms.Padding(5);
-            this.gbArticulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.gbArticulo.Size = new System.Drawing.Size(370, 124);
-            this.gbArticulo.TabIndex = 2;
-            this.gbArticulo.TabStop = false;
-            this.gbArticulo.Text = "Articulo";
+            this.gbArticulo.Size = new System.Drawing.Size(434, 184);
+            this.gbArticulo.TabIndex = 5;
+            this.gbArticulo.Text = "";
             // 
             // FormDetalle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(673, 321);
+            this.ClientSize = new System.Drawing.Size(884, 361);
             this.Controls.Add(this.gbArticulo);
+            this.Controls.Add(this.gbDescripcion);
             this.Controls.Add(this.btRegresar);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.gbDescripcion);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDetalle";
             this.Text = "FormDetalle";
             this.Load += new System.EventHandler(this.FormDetalle_Load);
@@ -101,9 +96,9 @@ namespace winformstp2
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox gbDescripcion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btRegresar;
-        private System.Windows.Forms.GroupBox gbArticulo;
+        private System.Windows.Forms.RichTextBox gbDescripcion;
+        private System.Windows.Forms.RichTextBox gbArticulo;
     }
 }

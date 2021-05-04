@@ -371,7 +371,6 @@ namespace winformstp2
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.MaximizeBox = false;
             this.Name = "Form2";
-            this.Opacity = 0.88D;
             this.Text = "Artículo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);
