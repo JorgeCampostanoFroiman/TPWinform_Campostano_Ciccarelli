@@ -32,3 +32,20 @@ C:\Users\jcamp\Desktop\utn\2 año\Programación\CatálogoWinforms\winformstp2\ob
 C:\Users\jcamp\Desktop\utn\2 año\Programación\CatálogoWinforms\winformstp2\obj\Debug\winformstp2.csproj.CopyComplete
 C:\Users\jcamp\Desktop\utn\2 año\Programación\CatálogoWinforms\winformstp2\obj\Debug\winformstp2.exe
 C:\Users\jcamp\Desktop\utn\2 año\Programación\CatálogoWinforms\winformstp2\obj\Debug\winformstp2.pdb
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\winformstp2.exe.config
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\winformstp2.exe
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\winformstp2.pdb
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\dominio.dll
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\negocio.dll
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\dominio.pdb
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\bin\Debug\negocio.pdb
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.csprojAssemblyReference.cache
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.Form1.resources
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.Form2.resources
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.FormDetalle.resources
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.Properties.Resources.resources
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.csproj.GenerateResource.cache
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.csproj.CoreCompileInputs.cache
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.csproj.CopyComplete
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.exe
+C:\Users\Diego Ciccarelli\Desktop\utn\Tercer cuatrimestre\Programacion III\Winform entrega final\winformstp2\obj\Debug\winformstp2.pdb
